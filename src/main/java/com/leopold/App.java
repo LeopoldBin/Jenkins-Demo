@@ -22,4 +22,9 @@ public class App
     public String hello(){
         return "hello,world";
     }
+
+    @RequestMapping("getName")
+    public String getName(){
+        return "Leopold";
+    }
 }
