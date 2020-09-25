@@ -25,6 +25,6 @@ public class App
 
     @RequestMapping("getName")
     public String getName(){
-        return "bin";
+        return "bin，leopold";
     }
 }
